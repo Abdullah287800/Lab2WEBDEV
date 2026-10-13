@@ -1,0 +1,78 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+header {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #17365d;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.project-card {
+    background-color: white;
+    width: 280px;
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.project-card h3 {
+    font-size: 18px;
+    color: #176b87;
+}
+
+.project-card p {
+    font-size: 14px;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #17365d;
+    color: white;
+    border: none;
+}
+
+footer {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
